@@ -1,0 +1,125 @@
+.hero-wrapper {
+  background: linear-gradient(
+    to bottom,
+    rgba(106, 44, 145, 0.8),
+    rgba(105, 98, 173, 0.6)
+  );
+  height: 500px;
+  border-bottom-right-radius: 400px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  padding-top: 70px; /* Prevents content/image from being hidden under navbar */
+}
+
+.container {
+  width: 100%;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.text-container {
+  z-index: 2;
+}
+
+.title-p {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 19px;
+}
+
+.body-text {
+  font-size: 19px;
+}
+
+.Button-App {
+  font-weight: 600;
+  font-size: 19px;
+  padding: 14px 40px;
+  color: rgba(106, 44, 145, 0.8);
+  background-color: white;
+  border: none;
+  border-radius: 35px;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.Button-App:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.hero-img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 24px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 991.98px) {
+  .hero-wrapper {
+    height: 420px;
+    border-bottom-right-radius: 220px;
+    padding-top: 60px;
+  }
+  .title-p {
+    font-size: 32px;
+  }
+  .body-text {
+    font-size: 16px;
+  }
+  .hero-img {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-wrapper {
+    height: auto;
+    border-bottom-right-radius: 120px;
+    padding-bottom: 32px;
+    margin-bottom: 30px;
+    padding-top: 55px;
+  }
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .title-p {
+    font-size: 22px;
+  }
+  .text-container {
+    text-align: center !important;
+    margin-bottom: 32px;
+  }
+  .hero-img {
+    max-width: 100px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-wrapper {
+    border-bottom-right-radius: 60px;
+    padding-bottom: 16px;
+    padding-top: 50px;
+  }
+  .title-p {
+    font-size: 16px;
+  }
+  .body-text {
+    font-size: 13px;
+  }
+  .Button-App {
+    font-size: 13px;
+    padding: 8px 14px;
+  }
+  .hero-img {
+    max-width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}

@@ -1,0 +1,88 @@
+.div-title {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.div-info {
+  font-size: 15px;
+  margin-top: -10px;
+  color: #3333339a;
+}
+
+.box {
+  border: 1px solid #33333325;
+  border-radius: 10px;
+  margin: 15px;
+  width: 290px;
+  padding: 25px 30px 20px 20px;
+}
+
+.box-title {
+  font-size: 21px;
+}
+
+.box-list-point {
+  color: #333333a2;
+  list-style: none;
+}
+
+.table-list {
+  border: 1px solid #33333325;
+  border-radius: 10px;
+  padding: 25px 30px 20px 20px;
+}
+.box-two-list {
+  background-color: #d0d0d025;
+  margin: 10px 10px 17px;
+  border-radius: 6px;
+  padding: 5px 0px 5px 13px;
+  margin-left: -30px;
+  font-size: 16px;
+}
+
+/* Ensure boxes are flexible */
+.box {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+/* Container adjustments */
+.symptoms .d-flex,
+.triggers .d-flex {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Main row responsive */
+@media (max-width: 768px) {
+  .d-flex {
+    flex-direction: column !important;
+  }
+
+  .triggers {
+    margin-left: 0 !important;
+    margin-top: 40px;
+  }
+
+  .box {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .triggers {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 40px;
+    max-width: 90%;
+  }
+
+  .box-two-list {
+    text-align: left; /* keep list items aligned left for readability */
+  }
+}
+@media (min-width: 992px) {
+  .triggers {
+    margin-left: 60px; /* adjust this value as needed */
+  }
+}

@@ -1,0 +1,73 @@
+.custom-navbar {
+  background: linear-gradient(
+    to top,
+    rgba(106, 44, 145, 0.8),
+    rgba(31, 13, 43, 0.9)
+  );
+  padding: 10px 15px;
+  min-height: 80px;
+}
+
+/* Logo styling */
+.custom-navbar img.logo {
+  height: 70px;
+  object-fit: contain;
+}
+
+.custom-navbar .navbar-nav {
+  margin-left: 25%;
+}
+/* Nav links */
+.custom-navbar .nav-link {
+  color: rgb(210, 208, 208);
+  /* margin-left: 25px;*/
+  font-weight: 500;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #f0f0f0b1;
+}
+
+.custom-navbar .nav-link:visited,
+.custom-navbar .nav-link:focus {
+  color: white;
+  text-decoration: none;
+}
+
+.custom-navbar .nav-link:active {
+  font-weight: bolder;
+  color: white;
+}
+
+/* Collapse background and spacing */
+.custom-navbar .navbar-collapse {
+  padding: 10px 0;
+}
+
+/* Toggle button fix */
+.custom-navbar .navbar-toggler {
+  padding: 6px 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive tweaks for small screens */
+@media (max-width: 991px) {
+  .custom-navbar {
+    padding: 10px;
+  }
+
+  .custom-navbar img.logo {
+    height: 60px;
+  }
+
+  .custom-navbar .navbar-collapse {
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+
+  .custom-navbar .nav-link {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,19 @@
+.icon {
+  width: 80px;
+}
+.txt {
+  color: #434343;
+}
+.card-one {
+  border-bottom: 3px solid rgba(67, 67, 67, 0.2);
+  border-left: 1px solid rgba(67, 67, 67, 0.2);
+  border-radius: 16px;
+}
+.card-text-one {
+  font-size: 16px;
+  margin-top: -10px;
+}
+.highlight {
+  font-weight: 500;
+  color: rgba(106, 44, 145, 0.8);
+}

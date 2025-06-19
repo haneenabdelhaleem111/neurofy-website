@@ -1,0 +1,66 @@
+.team-card {
+  width: 100%;
+  max-width: 250px; /* Adjust the card width */
+  margin: auto;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.team-card img {
+  height: 250px; /* Adjust image height */
+  object-fit: cover;
+}
+.team-card:hover {
+  transform: scale(1.03);
+}
+.team-container {
+  background-color: #6a2c9118;
+}
+
+.team-container {
+  background: linear-gradient(
+    to top,
+    rgba(106, 44, 145, 0.1),
+    rgba(255, 255, 255, 0.09)
+  );
+  margin-top: 60px;
+  width: 100%;
+}
+
+/*
+.team-card img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+*/
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+.section-container {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.section-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.section-quote {
+  font-size: 20px;
+  color: #333;
+  font-weight: 400;
+  font-style: italic;
+
+  margin-bottom: 20px;
+}

@@ -1,0 +1,36 @@
+.div-two-para {
+  color: rgb(106, 44, 145, 0.7);
+}
+
+.div-two-title {
+  font-size: 50px;
+  color: rgb(106, 44, 145, 0.8);
+}
+.step-title {
+  color: rgb(106, 44, 145, 0.7);
+}
+.sectionTwo {
+  background: linear-gradient(
+    to top,
+    rgba(106, 44, 145, 0.1),
+    rgba(255, 255, 255, 0.09)
+  );
+}
+.div-two {
+  width: 260px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .div-two-title {
+    font-size: 28px;
+    margin-top: 0;
+  }
+  .div-two {
+    margin: 0 auto 30px;
+  }
+}

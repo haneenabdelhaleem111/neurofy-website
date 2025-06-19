@@ -1,0 +1,13 @@
+.group-icon {
+  height: 130px;
+  margin-bottom: 15px;
+}
+.patient,
+.doctor,
+.caregiver {
+  justify-items: center;
+  border: none;
+  border-bottom: 1px solid #33333367;
+  border-left: 1px solid #33333357;
+  border-radius: 15px;
+}

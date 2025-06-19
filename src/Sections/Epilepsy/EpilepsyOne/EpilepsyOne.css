@@ -1,0 +1,38 @@
+.title-cont {
+  font-size: 70px;
+  color: #333333;
+}
+.para-cont {
+  font-size: 25px;
+  color: #333333ae;
+}
+.list-point {
+  color: #6a2c91e4;
+  font-size: 18px;
+}
+/* Keep your existing styles unchanged */
+
+/* Responsive adjustments for small screens */
+@media (max-width: 576px) {
+  .title-p.title-cont {
+    font-size: 40px;
+  }
+
+  .body-text.para-cont {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .custom-list {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .list-point {
+    width: 100%;
+    max-width: 90%;
+    margin-bottom: 2px;
+    font-size: 16px;
+  }
+}

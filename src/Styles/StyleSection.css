@@ -1,0 +1,11 @@
+.style-hero-section {
+  padding-top: 160px;
+  padding-bottom: 90px;
+}
+.style-section {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.style-section + .style-section {
+  margin-top: 40px;
+}

@@ -1,0 +1,34 @@
+.footer {
+  background: linear-gradient(
+    to bottom right,
+    rgb(31, 13, 43, 0.9),
+    rgb(106, 44, 145, 0.8),
+    rgb(105, 98, 173, 0.9)
+  );
+}
+
+.footer-logo {
+  height: 90px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.FooterMail {
+  color: white;
+  text-decoration: none;
+}
+
+.FooterMail:hover,
+.footer-link:hover {
+  color: rgb(204, 204, 204);
+}
+
+.footer-icons {
+  height: 25px;
+  color: white;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
