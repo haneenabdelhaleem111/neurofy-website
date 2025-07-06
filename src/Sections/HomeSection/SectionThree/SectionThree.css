@@ -1,14 +1,4 @@
-.div-two-para {
-  color: rgb(106, 44, 145, 0.7);
-}
-
-.div-two-title {
-  font-size: 50px;
-  color: rgb(106, 44, 145, 0.8);
-}
-.step-title {
-  color: rgb(106, 44, 145, 0.7);
-}
+/* Section background */
 .sectionTwo {
   background: linear-gradient(
     to top,
@@ -16,21 +6,112 @@
     rgba(255, 255, 255, 0.09)
   );
 }
-.div-two {
-  width: 260px;
-  height: 260px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+/* Typography and colors */
+.div-two-para {
+  color: rgba(106, 44, 145, 0.7);
+}
+
+.div-two-title {
+  font-size: 50px;
+  color: rgba(106, 44, 145, 0.8);
+  text-align: center;
+}
+
+.step-title {
+  color: rgba(106, 44, 145, 0.7);
+}
+
+/* Base layout (applies to large and medium screens) */
+.div-one,
+.div-two,
+.div-three {
   padding: 20px;
 }
-@media (max-width: 768px) {
+
+/* Medium screens: slightly smaller font and spacing */
+@media (max-width: 991.98px) {
+  .div-two-title {
+    font-size: 36px;
+  }
+
+  .div-two-para {
+    font-size: 16px;
+  }
+
+  .step h4 {
+    font-size: 18px;
+  }
+
+  .step h6 {
+    font-size: 14px;
+  }
+
+  .div-one,
+  .div-two,
+  .div-three {
+    padding: 10px;
+  }
+}
+
+/* Small screens (<768px): stacked layout */
+@media (max-width: 767.98px) {
+  /* Stack the columns vertically */
+  .row.align-items-center {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-two {
+    order: 1;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .div-one {
+    order: 2;
+  }
+
+  .div-three {
+    order: 3;
+  }
+
+  /* Adjust font sizes */
   .div-two-title {
     font-size: 28px;
-    margin-top: 0;
+    margin-bottom: 10px;
   }
-  .div-two {
-    margin: 0 auto 30px;
+
+  .div-two-para {
+    font-size: 14px;
+  }
+
+  .step h4 {
+    font-size: 16px;
+  }
+
+  .step h6 {
+    font-size: 13px;
+  }
+
+  .div-one,
+  .div-three {
+    margin-top: 10px;
+    padding: 10px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .div-two-title {
+    font-size: 24px;
+  }
+
+  .step h4 {
+    font-size: 15px;
+  }
+
+  .step h6 {
+    font-size: 12px;
   }
 }

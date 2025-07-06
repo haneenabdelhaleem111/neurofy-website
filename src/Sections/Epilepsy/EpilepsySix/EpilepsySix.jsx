@@ -19,7 +19,7 @@ const EpilepsySix = () => {
           {/* Left Image */}
           <div className="col-lg-6 mb-4 mb-lg-0 text-center">
             <img
-              src="/images/Neurofy-people.png"
+              src="/ImagesCompressed/Neurofy-people.webp"
               alt="people"
               className="img-fluid"
               style={{ maxHeight: "600px", borderRadius: "20px" }}
@@ -44,7 +44,7 @@ const EpilepsySix = () => {
               <div className="col-6 mb-4">
                 <div className="feature-container-box h-100 p-3">
                   <img
-                    src="/images/brain-squared.png"
+                    src="/ImagesCompressed/brain-squared.webp"
                     alt="AI"
                     style={{ height: "35px" }}
                   />
@@ -61,7 +61,7 @@ const EpilepsySix = () => {
               <div className="col-6 mb-4">
                 <div className="feature-container-box h-100 p-3">
                   <img
-                    src="/images/exclamation-squared.png"
+                    src="/ImagesCompressed/exclamation-squared.webp"
                     alt="Alert"
                     style={{ height: "35px" }}
                   />
@@ -78,7 +78,7 @@ const EpilepsySix = () => {
               <div className="col-6 mb-4">
                 <div className="feature-container-box h-100 p-3">
                   <img
-                    src="/images/heart-squared.png"
+                    src="/ImagesCompressed/heart-squared.webp"
                     alt="Comfort"
                     style={{ height: "35px" }}
                   />
@@ -95,7 +95,7 @@ const EpilepsySix = () => {
               <div className="col-6 mb-4">
                 <div className="feature-container-box h-100 p-3">
                   <img
-                    src="/images/people-squared.png"
+                    src="/ImagesCompressed/people-squared.webp"
                     alt="Family"
                     style={{ height: "35px" }}
                   />

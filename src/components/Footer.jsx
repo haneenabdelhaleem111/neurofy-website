@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-md-4 mb-4">
             <Link to="/">
               <img
-                src="/images/logo.png"
+                src="/ImagesCompressed/logo.webp"
                 alt="Neurofy Logo"
                 className="footer-logo mb-2"
               />
@@ -56,7 +56,7 @@ const Footer = () => {
                 className="FooterMail"
               >
                 <img
-                  src="/images/mail.png"
+                  src="/ImagesCompressed/mail.webp"
                   alt="mail"
                   className="footer-icons"
                 />
@@ -65,7 +65,7 @@ const Footer = () => {
             </p>
             <p>
               <img
-                src="/images/phone.png"
+                src="/ImagesCompressed/phone.webp"
                 className="footer-icons"
                 alt="phone"
               />
@@ -73,7 +73,7 @@ const Footer = () => {
             </p>
             <p>
               <img
-                src="/images/location.png"
+                src="/ImagesCompressed/location.webp"
                 className="footer-icons"
                 alt="location"
               />

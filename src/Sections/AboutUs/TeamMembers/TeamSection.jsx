@@ -5,14 +5,14 @@ const TeamSection = () => {
   const teamMembers = [
     {
       name: "Haneen Abdelhaleem",
-      image: "/images/Haneen.png",
+      image: "/ImagesCompressed/Haneen.webp",
       description: "Frontend Developer - Mobile Developer",
       linkedin: "https://www.linkedin.com/in/haneen-abdulhaleem-87969121a/",
       gmail: "haneenhaleem111@gmail.com",
     },
     {
       name: "Hazem Shaker",
-      image: "/images/Hazem.jpeg",
+      image: "/ImagesCompressed/Hazem.webp",
       description: "Full Stack Developer - Business Developer",
       linkedin:
         "https://www.linkedin.com/in/hazem-shaker?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVGnr4kMUSeyvUZy0QGSsuQ%3D%3D",
@@ -20,35 +20,35 @@ const TeamSection = () => {
     },
     {
       name: "Khaled Waleed",
-      image: "/images/Khaled.jpeg",
+      image: "/ImagesCompressed/Khaled.webp",
       description: "Full Stack Developer",
       linkedin: "https://www.linkedin.com/in/khaled-waleed-mohammed/",
       gmail: "khalodatia@gmail.com ",
     },
     {
       name: "Roaa Osama",
-      image: "/images/Roaa.jpeg",
+      image: "/ImagesCompressed/Roaa.webp",
       description: "Backend Developer",
       linkedin: "https://www.linkedin.com/in/roaa-fouda",
       gmail: "roaa.fouda2@gmail.com",
     },
     {
       name: "Mohamed Nagy",
-      image: "/images/Nagy.png",
+      image: "/ImagesCompressed/Nagy.webp",
       description: "Embedded Systems Engineer - Business Developer",
       linkedin: "https://www.linkedin.com/in/mohamed-nagy11",
       gmail: "mohamed.nagy.elkholy@gmail.com",
     },
     {
       name: "Hassan Mohamed",
-      image: "/images/Hassan.jpg",
+      image: "/ImagesCompressed/Hassan.webp",
       description: "Embedded Systems Engineer",
       linkedin: "https://www.linkedin.com/in/hassan-mohamed-4436471b9",
       gmail: "hassanmohamed25687@gmail.com",
     },
     {
       name: "Mohamed Abdelhameed",
-      image: "/images/Abdelhameed.jpeg",
+      image: "/ImagesCompressed/Abdelhameed.jpg",
       description: "ML Engineer - Business Developer",
       linkedin:
         "https://www.linkedin.com/in/mohamed-abdelhamid-253178222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -56,28 +56,28 @@ const TeamSection = () => {
     },
     {
       name: "Salma Khaled",
-      image: "/images/Salma.png",
+      image: "/ImagesCompressed/Salma.webp",
       description: "ML Engineer",
       linkedin: "https://www.linkedin.com/in/salma-eltahhan",
       gmail: "salmaeltahan184@gmail.com",
     },
     {
       name: "Tasneem Abdelgawad",
-      image: "/images/Tasnim.jpg",
+      image: "/ImagesCompressed/Tasnim.webp",
       description: "ML Engineer",
       linkedin: "http://linkedin.com/in/tasnim-elyamany-293043217",
       gmail: "Tasneemabdeljwad@std.mans.edu.eg",
     },
     {
       name: "Ahmed Waly",
-      image: "/images/Waly.jpeg",
+      image: "/ImagesCompressed/Waly.webp",
       description: "Security Engineer",
       linkedin: "https://www.linkedin.com/in/ahmedwaly1",
       gmail: "awaly404@gmail.com",
     },
     {
       name: "Rokia Ahmed",
-      image: "/images/Rokia.jpg",
+      image: "/ImagesCompressed/Rokia.webp",
       description: "UI/UX Designer",
       linkedin: "www.linkedin.com/in/rokia-elbishbishy-496704218",
       gmail: "rokiaelbishbishy@gmail.com",
@@ -114,14 +114,14 @@ const TeamSection = () => {
                   <div className="mt-2">
                     <a href={member.linkedin} className="text-primary me-2">
                       <img
-                        src="/images/social.png"
+                        src="/ImagesCompressed/social.webp"
                         alt="linkedin"
                         style={{ height: "20px" }}
                       />
                     </a>
                     <a href={member.gmail} className="text-dark">
                       <img
-                        src="/images/mail outline.png"
+                        src="/ImagesCompressed/mail outline.webp"
                         alt="..."
                         style={{ height: "20px" }}
                       />

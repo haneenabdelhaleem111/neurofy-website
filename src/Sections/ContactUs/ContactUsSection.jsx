@@ -26,6 +26,7 @@ const ContactUs = () => {
                     className="form-control"
                     id="name"
                     required
+                    autoComplete="name"
                   />
                 </div>
                 <div className="mb-3 text-start d-flex flex-column align-items-center">
@@ -37,6 +38,7 @@ const ContactUs = () => {
                     className="form-control"
                     id="number"
                     required
+                    autoComplete="number"
                   />
                 </div>
                 <div className="mb-3 text-start d-flex flex-column align-items-center">
@@ -48,6 +50,7 @@ const ContactUs = () => {
                     className="form-control"
                     id="email"
                     required
+                    autoComplete="email"
                   />
                 </div>
                 <div className="mb-3 text-start d-flex flex-column align-items-center">
@@ -62,6 +65,7 @@ const ContactUs = () => {
                     id="message"
                     rows="3"
                     required
+                    autoComplete="off"
                   ></textarea>
                 </div>
                 <div className="mb-3 text-start d-flex flex-column align-items-center">

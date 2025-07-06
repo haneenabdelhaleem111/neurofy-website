@@ -16,7 +16,7 @@ const SectionFour = () => {
           <div className="col-12 col-md-4 d-flex justify-content-center mb-4 mb-md-0">
             <div className="patient px-3 w-90">
               <img
-                src="/images/epilepsy (2).png"
+                src="/ImagesCompressed/epilepsy (2).webp"
                 alt="patient"
                 className="group-icon"
               />
@@ -31,7 +31,7 @@ const SectionFour = () => {
           <div className="col-12 col-md-4 d-flex justify-content-center mb-4 mb-md-0 ">
             <div className="doctor px-3 w-90">
               <img
-                src="/images/doctor.png"
+                src="/ImagesCompressed/doctor.webp"
                 alt="doctor"
                 className="group-icon"
               />
@@ -46,7 +46,7 @@ const SectionFour = () => {
           <div className="col-12 col-md-4 d-flex justify-content-center">
             <div className="caregiver px-3  w-90">
               <img
-                src="/images/caregiver.png"
+                src="/ImagesCompressed/caregiver.webp"
                 alt="caregiver"
                 className="group-icon"
               />

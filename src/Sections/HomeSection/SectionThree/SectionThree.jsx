@@ -7,7 +7,7 @@ const SectionThree = () => {
       <div className="container">
         <div className="row align-items-center justify-content-center">
           {/* Left Column */}
-          <div className="col-lg-4 col-md-6 mb-4 div-one pt-5">
+          <div className="col-lg-4 col-sm-6 mb-4 div-one pt-5">
             <div className="step mt-3 mb-3">
               <h4>
                 <span className="step-title">Step 1:</span> EEG Data Collection
@@ -40,7 +40,7 @@ const SectionThree = () => {
           </div>
 
           {/* Middle Circle Column */}
-          <div className="col-lg-4 col-md-12 mb-5 text-center">
+          <div className="col-lg-4 col-sm-12 mb-5 text-center">
             <div className="div-two mx-auto">
               <h1 className="title-p div-two-title">How Neurofy works?</h1>
               <h5 className="body-text div-two-para">
@@ -50,7 +50,7 @@ const SectionThree = () => {
           </div>
 
           {/* Right Column */}
-          <div className="col-lg-4 col-md-6 mb-4 div-three">
+          <div className="col-lg-4 col-sm-6 mb-4 div-three">
             <div className="step mt-3 mb-3">
               <h4>
                 <span className="step-title">Step 4:</span> Backend Integration

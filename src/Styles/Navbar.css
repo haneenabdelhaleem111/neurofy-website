@@ -4,24 +4,46 @@
     rgba(106, 44, 145, 0.8),
     rgba(31, 13, 43, 0.9)
   );
-  padding: 10px 15px;
-  min-height: 80px;
+  min-height: 60px;
+  max-height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0 !important; /* Remove any bottom margin */
+  border: none;
+  width: 100%;
+  z-index: 9999; /* Ensure it stays above other elements */
 }
 
 /* Logo styling */
 .custom-navbar img.logo {
-  height: 70px;
+  height: 80px;
+  margin-left: 30%;
   object-fit: contain;
+  padding-bottom: 0; /* Remove logo spacing */
+  margin-bottom: 0;
 }
 
+/* Nav container */
 .custom-navbar .navbar-nav {
-  margin-left: 25%;
+  margin-left: 30%;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* slightly tighter spacing */
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
+
 /* Nav links */
 .custom-navbar .nav-link {
   color: rgb(210, 208, 208);
-  /* margin-left: 25px;*/
   font-weight: 500;
+  font-size: 15px;
+  margin-left: 8px;
+  line-height: 1.2;
+  padding: 4px 6px;
+  margin-bottom: 0;
 }
 
 .custom-navbar .nav-link:hover {
@@ -39,35 +61,64 @@
   color: white;
 }
 
-/* Collapse background and spacing */
+/* Collapse spacing */
 .custom-navbar .navbar-collapse {
-  padding: 10px 0;
+  padding: 20px;
+  margin-bottom: 0;
+  /* Ensure the menu is fixed */
+  /* Position it below the navbar */
+  left: 0;
+  width: 100%;
+  z-index: 9998; /* Ensure it is below the navbar */
+  border-radius: 0 0 10px 10px;
+  display: none; /* Initially hidden */
 }
 
-/* Toggle button fix */
+/* Show the menu when toggled */
+.custom-navbar .navbar-collapse.show {
+  display: block; /* Display the menu when it is toggled */
+}
+
+/* Toggle button */
 .custom-navbar .navbar-toggler {
-  padding: 6px 10px;
+  padding: 4px 8px;
   border: none;
   background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 0;
+  color: gray;
+  z-index: 9999; /* Ensure the toggle button is above the menu */
 }
 
 /* Responsive tweaks for small screens */
 @media (max-width: 991px) {
   .custom-navbar {
-    padding: 10px;
+    padding: 5px 10px;
+    margin-bottom: 0;
   }
 
   .custom-navbar img.logo {
-    height: 60px;
+    height: 65px;
+    margin-left: 0;
+    margin-bottom: 0;
   }
 
   .custom-navbar .navbar-collapse {
-    border-radius: 6px;
-    margin-top: 10px;
+    margin-bottom: 0;
+
+    top: 60px; /* Ensure proper alignment below the navbar */
+    background-color: rgba(66, 26, 91, 0.299); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
   }
 
   .custom-navbar .nav-link {
     margin-left: 0;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
+    text-align: center;
+  }
+
+  .custom-navbar .navbar-nav {
+    margin-left: 0;
+    flex-direction: column;
+    gap: 4px;
   }
 }

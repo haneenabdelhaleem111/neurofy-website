@@ -5,27 +5,27 @@ const AdvisoryBoaard = () => {
   const BoardMembers = [
     {
       name: "Dr. Sarah Ayyad",
-      image: "/images/Sarah.jpeg",
+      image: "/ImagesCompressed/Sarah.webp",
       description: "AI Professor Mansoura University",
     },
     {
       name: "Dr. Mohamed Ali",
-      image: "/images/Mohamed.jpeg",
+      image: "/ImagesCompressed/Mohamed.webp",
       description: "Neurology Specialist Armed Forces Hospital",
     },
     {
       name: "Eng. Mahmoud Abo Elnaga",
-      image: "/images/CEO.jpeg",
+      image: "/ImagesCompressed/CEO.jpg",
       description: "CEO PUIUX",
     },
     {
       name: "Eng. Omar Wahba",
-      image: "/images/Omar.jpeg",
+      image: "/ImagesCompressed/Omar.webp",
       description: "M.Sc. Candidate Université du Québec",
     },
     {
       name: "Eng. Ahmed Gamal",
-      image: "/images/Eng.jpeg",
+      image: "/ImagesCompressed/Eng.jpg",
       description: "Teaching Assistant at Mansoura University",
     },
   ];

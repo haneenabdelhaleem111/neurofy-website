@@ -28,7 +28,7 @@ const EpilepsyFive = () => {
               style={{ fontWeight: "600", fontSize: "24px" }}
             >
               <img
-                src="/images/shield-blue.png"
+                src="/ImagesCompressed/shield-blue.webp"
                 alt="shield"
                 style={{ height: "20px", margin: "5px 5px 10px 0px" }}
               />
@@ -64,7 +64,7 @@ const EpilepsyFive = () => {
               style={{ fontWeight: "600", fontSize: "24px" }}
             >
               <img
-                src="/images/flash-green.png"
+                src="/ImagesCompressed/flash-green.webp"
                 alt="flash"
                 style={{ height: "20px", margin: "5px 5px 10px 0px" }}
               />
@@ -100,7 +100,7 @@ const EpilepsyFive = () => {
               style={{ fontWeight: "600", fontSize: "24px" }}
             >
               <img
-                src="/images/brain.png"
+                src="/ImagesCompressed/brain.webp"
                 alt="brain"
                 style={{ height: "20px", margin: "5px 5px 10px 0px" }}
               />
@@ -136,7 +136,7 @@ const EpilepsyFive = () => {
               style={{ fontWeight: "600", fontSize: "24px" }}
             >
               <img
-                src="/images/heart-orange.png"
+                src="/ImagesCompressed/heart-orange.webp"
                 alt="heart"
                 style={{ height: "20px", margin: "5px 5px 10px 0px" }}
               />
@@ -172,7 +172,7 @@ const EpilepsyFive = () => {
               style={{ fontWeight: "600", fontSize: "24px" }}
             >
               <img
-                src="/images/user-green.png"
+                src="/ImagesCompressed/user-green.webp"
                 alt="user"
                 style={{ height: "20px", margin: "5px 5px 10px 0px" }}
               />
@@ -208,7 +208,7 @@ const EpilepsyFive = () => {
               style={{ fontWeight: "600", fontSize: "24px" }}
             >
               <img
-                src="/images/open-magazine.png"
+                src="/ImagesCompressed/open-magazine.webp"
                 alt="magazine"
                 style={{ height: "20px", margin: "5px 5px 10px 0px" }}
               />
@@ -244,7 +244,7 @@ const EpilepsyFive = () => {
               style={{ fontWeight: "600", fontSize: "24px" }}
             >
               <img
-                src="/images/monitor.png"
+                src="/ImagesCompressed/monitor.webp"
                 alt="monitor"
                 style={{ height: "20px", margin: "5px 5px 10px 0px" }}
               />

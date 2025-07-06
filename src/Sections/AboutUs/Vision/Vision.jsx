@@ -2,7 +2,7 @@ import React from "react";
 import "./Vision.css";
 const Vision = () => {
   return (
-    <React.Fragment className="body">
+    <React.Fragment>
       <div className="vision-section d-flex justify-content-center align-items-center text-center">
         <div className="vision-container">
           <h1 className="title">Our Mission </h1>

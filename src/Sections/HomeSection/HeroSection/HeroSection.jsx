@@ -26,10 +26,9 @@ const HeroSection = () => {
           {/* Right side: Image */}
           <div className="col-lg-6 col-md-12 d-flex justify-content-center">
             <img
-              src="/images/heropic.png"
+              src="/ImagesCompressed/heropic.webp"
               alt="Neurofy Mockup"
               className="img-fluid hero-img"
-              style={{ height: "800px", marginTop: "25px" }}
             />
           </div>
         </div>

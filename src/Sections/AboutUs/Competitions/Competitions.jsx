@@ -10,32 +10,32 @@ const Competitions = () => {
 
   const achievements = [
     {
-      src: "/images/Hack.png",
+      src: "/ImagesCompressed/Hack.webp",
       label: "1st place at Hack24",
       desc: "Organized by AUC and e& among 141 teams from 8 countries",
     },
     {
-      src: "/images/Creativa.png",
+      src: "/ImagesCompressed/Creativa.jpg",
       label: "1st place at Industry 4.0 Hackathon",
       desc: "Organized by Creativa Mansoura Hub",
     },
     {
-      src: "/images/Sanam.png",
+      src: "/ImagesCompressed/Sanam.webp",
       label: "Pre-incubation",
       desc: "By Sanam Ventures",
     },
     {
-      src: "/images/Eureca.jpeg",
+      src: "/ImagesCompressed/Eureca.webp",
       label: "Presented Academic Poster",
       desc: "At EURECA Conference Organized by AUC",
     },
     {
-      src: "/images/Appx.jpeg",
+      src: "/ImagesCompressed/Appx.jpg",
       label: "Best Technical Project at AppX",
       desc: "Organized by IEEE Zewail City",
     },
     {
-      src: "/images/DELL.png",
+      src: "/ImagesCompressed/DELL.jpg",
       label: "Finalist at Dell Competition",
       desc: "Competing with 259 teams from 20 countries",
     },

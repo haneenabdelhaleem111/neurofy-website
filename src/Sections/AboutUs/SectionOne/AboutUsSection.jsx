@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUsSection.css";
-import teamImage from "../../../assets/images/team1.png";
+import teamImage from "../../../assets/images/team1.webp";
 const AboutUsSection = () => {
   return (
     <React.Fragment>

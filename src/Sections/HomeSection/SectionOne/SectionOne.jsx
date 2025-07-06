@@ -31,7 +31,7 @@ const SectionOne = () => {
           <div className="col-lg-4 col-md-6 mb-4 card-one">
             <div className="card h-100 border-0 ">
               <img
-                src="/images/increasing.png"
+                src="/ImagesCompressed/increasing.webp"
                 alt="increasing"
                 className="icon mx-auto mb-1"
               />
@@ -50,7 +50,7 @@ const SectionOne = () => {
           <div className="col-lg-4 col-md-6 mb-4 card-one">
             <div className="card h-100 border-0">
               <img
-                src="/images/networking.png"
+                src="/ImagesCompressed/networking.webp"
                 alt="increasing"
                 className="icon mx-auto mb-1"
               />
@@ -68,7 +68,7 @@ const SectionOne = () => {
           <div className="col-lg-4 col-md-6 mb-4 card-one">
             <div className="card h-100  border-0">
               <img
-                src="/images/support.png"
+                src="/ImagesCompressed/support.webp"
                 alt="increasing"
                 className="icon mx-auto mb-1"
               />

@@ -22,7 +22,7 @@ const EpilepsyThree = () => {
         <div className="seizure-type-div me-3">
           <h3 className="seizure-type-title title-p">
             <img
-              src="/images/flash-rounded.png"
+              src="/ImagesCompressed/flash-rounded.webp"
               alt="flash-rounded"
               style={{ margin: "3px 7px 7px", height: "28px" }}
             />
@@ -50,7 +50,7 @@ const EpilepsyThree = () => {
         <div className="seizure-type-div me-3">
           <h3 className="seizure-type-title title-p">
             <img
-              src="/images/brain-rounded.png"
+              src="/ImagesCompressed/brain-rounded.webp"
               alt="flash-rounded"
               style={{ margin: "3px 7px 7px", height: "28px" }}
             />
@@ -74,7 +74,7 @@ const EpilepsyThree = () => {
         <div className="seizure-type-div me-3">
           <h3 className="seizure-type-title title-p">
             <img
-              src="/images/warning-rounded.png"
+              src="/ImagesCompressed/warning-rounded.webp"
               alt="flash-rounded"
               style={{ margin: "3px 7px 7px", height: "28px" }}
             />
