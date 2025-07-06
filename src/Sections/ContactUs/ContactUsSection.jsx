@@ -1,6 +1,31 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../ContactUs/ContactUsSection.css";
+import emailjs from "emailjs-com";
 const ContactUs = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_l9e034i", // Replace with your EmailJS service ID
+        "template_5euaaqo", // Replace with your EmailJS template ID
+        form.current,
+        "HX4WMMocpe6RR3UTD" // Replace with your EmailJS public key
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent successfully, we will get back to you soon!");
+          e.target.reset(); // Clear form fields
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Failed to send message. Please try again.");
+        }
+      );
+  };
   return (
     <section
       className="py-5 mt-2 d-flex justify-content-center align-items-center "
@@ -16,7 +41,7 @@ const ContactUs = () => {
               <h2 className="title-m mb-4" style={{ color: "#33333ae" }}>
                 Contact Us
               </h2>
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="mb-3 text-start d-flex flex-column align-items-center">
                   <label htmlFor="name" className="body-text form-label w-100">
                     Name
@@ -27,18 +52,21 @@ const ContactUs = () => {
                     id="name"
                     required
                     autoComplete="name"
+                    name="from_name"
                   />
                 </div>
+
                 <div className="mb-3 text-start d-flex flex-column align-items-center">
                   <label htmlFor="name" className="body-text form-label w-100">
                     Phone Number
                   </label>
                   <input
-                    type="Phone-number"
+                    type="text"
                     className="form-control"
                     id="number"
                     required
                     autoComplete="number"
+                    name="phone"
                   />
                 </div>
                 <div className="mb-3 text-start d-flex flex-column align-items-center">
@@ -51,6 +79,7 @@ const ContactUs = () => {
                     id="email"
                     required
                     autoComplete="email"
+                    name="from_email"
                   />
                 </div>
                 <div className="mb-3 text-start d-flex flex-column align-items-center">
@@ -66,6 +95,7 @@ const ContactUs = () => {
                     rows="3"
                     required
                     autoComplete="off"
+                    name="message"
                   ></textarea>
                 </div>
                 <div className="mb-3 text-start d-flex flex-column align-items-center">
@@ -79,7 +109,6 @@ const ContactUs = () => {
                     </a>
                   </p>
                 </div>
-
                 <button
                   type="submit"
                   className="btn"
