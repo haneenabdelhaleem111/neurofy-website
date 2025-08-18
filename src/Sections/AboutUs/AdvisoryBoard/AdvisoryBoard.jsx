@@ -53,6 +53,7 @@ const AdvisoryBoaard = () => {
                     height: "130px",
                     objectFit: "cover",
                   }}
+                  loading="lazy"
                 />
                 <div className="card-body">
                   <h5 className="card-title">{member.name}</h5>

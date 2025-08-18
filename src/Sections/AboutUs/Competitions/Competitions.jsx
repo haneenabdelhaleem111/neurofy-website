@@ -65,6 +65,7 @@ const Competitions = () => {
                   src={item.src}
                   className="d-block w-100 carousel-img"
                   alt={item.label}
+                  loading="lazy"
                 />
                 <div className="carousel-caption-below text-center">
                   <h5 className="label-text title-p">{item.label}</h5>

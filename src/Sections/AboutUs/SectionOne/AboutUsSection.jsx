@@ -14,6 +14,7 @@ const AboutUsSection = () => {
           height: "720px",
           width: "fixed",
           position: "relative",
+          loading: "lazy",
         }}
       >
         <div className="overlay"></div>

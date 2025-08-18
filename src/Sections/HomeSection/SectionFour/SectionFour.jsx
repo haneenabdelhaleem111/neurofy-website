@@ -18,7 +18,12 @@ const SectionFour = () => {
               <img
                 src="/ImagesCompressed/epilepsy (2).webp"
                 alt="patient"
-                className="group-icon"
+                className="group-icon "
+                style={{
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
               />
               <h3>Patients</h3>
               <ul className="body-text mt-2">
@@ -34,6 +39,11 @@ const SectionFour = () => {
                 src="/ImagesCompressed/doctor.webp"
                 alt="doctor"
                 className="group-icon"
+                style={{
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
               />
               <h3>Doctors</h3>
               <ul className="body-text mt-2">
@@ -49,6 +59,11 @@ const SectionFour = () => {
                 src="/ImagesCompressed/caregiver.webp"
                 alt="caregiver"
                 className="group-icon"
+                style={{
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
               />
               <h3>Caregivers</h3>
               <ul className="body-text mt-2">

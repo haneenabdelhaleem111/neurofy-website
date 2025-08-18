@@ -107,6 +107,7 @@ const TeamSection = () => {
                     height: "130px",
                     objectFit: "cover",
                   }}
+                  loading="lazy"
                 />
                 <div className="card-body">
                   <h5 className="card-title">{member.name}</h5>
@@ -117,6 +118,7 @@ const TeamSection = () => {
                         src="/ImagesCompressed/social.webp"
                         alt="linkedin"
                         style={{ height: "20px" }}
+                        loading="lazy"
                       />
                     </a>
                     <a href={member.gmail} className="text-dark">
@@ -124,6 +126,7 @@ const TeamSection = () => {
                         src="/ImagesCompressed/mail outline.webp"
                         alt="..."
                         style={{ height: "20px" }}
+                        loading="lazy"
                       />
                     </a>
                   </div>
