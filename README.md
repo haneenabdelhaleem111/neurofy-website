@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Neurofy Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A professional website for **Neurofy**, Neurofy is an IoT project for epilepsy patients to ease their life and track their seizures, the website is an introduction about the headband and the mobile application to know more about it.
 
-## Available Scripts
+🔗 Live Demo: https://neurofy-website.netlify.app/
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🧠 About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The **Neurofy Website** is a modern, responsive web application designed to:
+- Present the Neurofy platform to visitors
+- It highlights the vision, services, and capabilities of Neurofy in a clean, user-friendly interface built with modern web technologies
+- Page for the "About", to know more about the team's achievements and about the team to reach out.
+- It's not about buying a product from the site, but also about awareness about the seizure and how to help others 
+- Contact page to ease the communication
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The site is fully responsive, optimized for performance, and deployed on Netlify.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧩 Features
 
-### `npm run build`
+- **Responsive Design** for mobile and desktop
+- **Hero Section** with branding and key message
+- **About Sections** explaining what Neurofy offers
+- **Awareness Section** sharing informations about the seizure patients and their caregivers
+- **Call-to-Action Buttons** for engagement and conversion
+- **Clean UI / UX** using Bootstrap CSS
+- **Section Animations** for smooth interaction
+- **Easy Deployment** on Netlify
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is built with:
 
-### `npm run eject`
+- **React.js** — UI library for building interactive components  
+- **Bootstrap** — Utility-first CSS framework for styling  
+- **Netlify** — Hosting and continuous deployment platform  
+- **Create React App** — Development tooling (if used)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author 
+[Haneen Abdelhaleem] : https://www.linkedin.com/in/haneen-abdulhaleem20306/ | haneen.abdelhaleem11@gmail.com
