@@ -1,3 +1,6 @@
+<img width="1884" height="1200" alt="Neurofy" src="https://github.com/user-attachments/assets/fb4f3b44-5e1d-4cf5-97ac-6d73890b9a18" />
+
+
 # Neurofy Website
 
 A professional website for **Neurofy**, Neurofy is an IoT project for epilepsy patients to ease their life and track their seizures, the website is an introduction about the headband and the mobile application to know more about it.
